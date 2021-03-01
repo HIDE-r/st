@@ -6,7 +6,16 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "Liberation Mono:pixelsize=15:antialias=true:autohint=true";
-static char *font = "MesloLGS NF:pixelsize=15:antialias=true:autohint=true";
+//static char *font = "MesloLGS NF:pixelsize=15:antialias=true:autohint=true";
+//static char *font = { "MesloLGS NF:pixelsize=15:antialias=true:autohint=true", "siji:pixelsize=10:antialias=true:autohint=true" };JetBrains Mono 
+static char *font = { "JetBrains Mono:pixelsize=15:antialias=true:autohint=true"  };
+/* Spare fonts */
+static char *font2[] = {
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+	"siji:pixelsize=10:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
@@ -46,7 +55,7 @@ int allowaltscreen = 1;
 
 /* allow certain non-interactive (insecure) window operations such as:
    setting the clipboard text */
-int allowwindowops = 0;
+int allowwindowops = 1;
 
 /*
  * draw latency range in ms - from new content/keypress/etc until drawing.
