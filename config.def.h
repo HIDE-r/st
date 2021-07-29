@@ -8,7 +8,7 @@
 //static char *font = "Liberation Mono:pixelsize=15:antialias=true:autohint=true";
 //static char *font = "MesloLGS NF:pixelsize=15:antialias=true:autohint=true";
 //static char *font = { "MesloLGS NF:pixelsize=15:antialias=true:autohint=true", "siji:pixelsize=10:antialias=true:autohint=true" };JetBrains Mono 
-static char *font = { "OperatorMonoLig-Book:pixelsize=16:antialias=true:autohint=true"  };
+static char *font = { "OperatorMonoLig-Book:pixelsize=15:antialias=true:autohint=true"  };
 /* Spare fonts */
 static char *font2[] = {
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
@@ -118,7 +118,7 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.95;
+float alpha = 0.99;
 
 /* -------------- Theme ------------- */
 //#include "Theme/default.h"
